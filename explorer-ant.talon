@@ -3,7 +3,7 @@ app: windows_file_browser
 -
 
 up directory:
-    key(alt-left)
+    key(alt-up)
 
 down directory:
     key(alt-right)
@@ -15,16 +15,12 @@ address history:
     key(alt-down)
 
 go search pane:
-    key(alt-d)
-    key(tab)
-    repeat(1)
+    key(ctrl-e)
 
 go folder pane:
-    key(alt-d)
-    key(tab)
-    repeat(2)
+    key(ctrl-e)
+    key(tab:1)
 
 go file pane:
-    key(alt-d)
-    key(tab)
-    repeat(3)
+    key(ctrl-e)
+    key(tab:2)
