@@ -8,7 +8,7 @@ up directory:
 down directory:
     key(alt-right)
 
-go history:
+go address:
     key(alt-d)
 
 address history:
@@ -17,14 +17,14 @@ address history:
 go search pane:
     key(alt-d)
     key(tab)
-    repeat(3)
+    repeat(1)
 
 go folder pane:
     key(alt-d)
     key(tab)
-    repeat(3)
+    repeat(2)
 
 go file pane:
     key(alt-d)
     key(tab)
-    repeat(4)
+    repeat(3)
