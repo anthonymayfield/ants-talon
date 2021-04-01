@@ -2,7 +2,6 @@ os: windows
 and app.name: Adobe Premiere Pro 2020
 os: windows
 and app.exe: Adobe Premiere Pro.exe
-
 -
 
 next join:
@@ -70,7 +69,7 @@ zoom in:
 zoom out:
     key(-)
 
-open media browser:
+media browser:
     key(shift-8)
 
 insert file:
