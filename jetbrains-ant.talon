@@ -4,6 +4,17 @@ app: jetbrains
 start debug:
     key(shift-f9)
 
+find in files:
+    key(ctrl-shift-f)
+
+(search | find) actions:
+    key (ctrl-shift-a)
+
+select opened file:
+    key(alt-f1 1)
+
+terminate:
+    key(ctrl-f2)
 
    # F8 Step over
    # F7 Step into

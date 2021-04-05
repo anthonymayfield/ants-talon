@@ -39,7 +39,7 @@ draft items:
     key(ctrl-e ctrl-shift-tab home down:2 enter)
 
 message list:
-    key(ctrl-e tab:7)
+    key(ctrl-e shift-tab)
 
 next pane:
     key(ctrl-shift-tab)
