@@ -1,5 +1,6 @@
 app: jetbrains
 -
+tag(): terminal
 
 start debug:
     key(shift-f9)
@@ -15,6 +16,12 @@ select opened file:
 
 terminate:
     key(ctrl-f2)
+
+open structure dialog:
+    key(ctrl-f12)
+
+build class:
+    key(ctrl-shift-f9)
 
    # F8 Step over
    # F7 Step into

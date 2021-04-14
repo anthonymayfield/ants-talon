@@ -16,6 +16,12 @@ catch left:
 catch right:
     edit.extend_word_right()
 
+salute:
+    key(enter)
+
+finish:
+    key(end)
+
 begin funky:
     key(end space)
     key('{')
