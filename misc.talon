@@ -22,10 +22,19 @@ salute:
 finish:
     key(end)
 
+fill:
+    key(shift-up shift-end)
+
+fall:
+    key(shift-down shift-end)
+
 begin funky:
     key(end space)
     key('{')
     key(enter)
+
+fuck you:
+    edit.undo()
 
 #push: go to end of line and hit enter
 junk: key(backspace)
