@@ -2,6 +2,8 @@ os: windows
 and app.name: Adobe Premiere Pro 2020
 os: windows
 and app.exe: Adobe Premiere Pro.exe
+os: windows
+and app.name: Adobe Premiere Pro.exe
 -
 
 next join:
@@ -13,11 +15,15 @@ previous join:
 next panel:
 	key(ctrl-shift-.)
 	
-fast forward <number>:
+(fast forward | slide) <number>:
 	edit.right()
 	repeat(number - 1)
 	
-rewind <number>:
+(rewind | slide) <number>:
+	edit.left()
+	repeat(number - 1)
+
+slip <number>:
 	edit.left()
 	repeat(number - 1)
 	
@@ -77,3 +83,12 @@ insert file:
 
 timeline panel:
     key(shift-3)
+
+select all:
+    key(ctrl-a)
+
+apply transitions:
+    key(shift-d)
+
+insert from clipboard:
+    key(ctrl-shift-v)
