@@ -52,6 +52,9 @@ accept audio call:
 start audio call:
     key(ctrl-shift-c)
 
+end call:
+    key(ctrl-shift-b)
+
 toggle mute:
     key(ctrl-shift-m)
 
