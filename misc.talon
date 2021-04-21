@@ -36,6 +36,17 @@ begin funky:
 fuck you:
     edit.undo()
 
+store that:
+	mouse_click()
+	mouse_click()
+	edit.copy()
+
+transfer that:
+	mouse_click()
+	mouse_click()
+	edit.copy()
+	edit.paste()
+
 #push: go to end of line and hit enter
 junk: key(backspace)
 delhi | deli: key(delete)

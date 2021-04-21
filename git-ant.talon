@@ -27,3 +27,11 @@ git checkout new incident:
 git checkout incident:
     'git checkout IN'
     edit.paste()
+
+git merge base normal:
+    'git merge-base master RELEASE'
+
+git log pretty:
+    'git lg'
+
+
