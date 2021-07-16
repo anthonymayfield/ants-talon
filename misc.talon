@@ -47,6 +47,20 @@ transfer that:
 	edit.copy()
 	edit.paste()
 
+replace that:
+	mouse_click()
+	mouse_click()
+	sleep(100ms)
+	edit.paste()
+
+teleport:
+	edit.copy()
+	edit.paste()
+
+excel paste:
+    edit.paste()
+    key(backspace:2)
+
 #push: go to end of line and hit enter
 junk: key(backspace)
 delhi | deli: key(delete)

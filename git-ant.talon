@@ -31,7 +31,7 @@ git checkout incident:
 git merge base normal:
     'git merge-base master RELEASE'
 
-git log pretty:
+git pretty log:
     'git lg'
 
 
