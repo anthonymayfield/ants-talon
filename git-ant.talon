@@ -28,6 +28,12 @@ git checkout incident:
     'git checkout IN'
     edit.paste()
 
+git commit clip:
+    'git commit -m "'
+    edit.paste()
+    ' "'
+    key(left)
+
 git merge base normal:
     'git merge-base master RELEASE'
 

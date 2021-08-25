@@ -61,6 +61,8 @@ excel paste:
     edit.paste()
     key(backspace:2)
 
+nmap: 'map'
+
 #push: go to end of line and hit enter
 junk: key(backspace)
 delhi | deli: key(delete)

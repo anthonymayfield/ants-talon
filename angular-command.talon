@@ -1,4 +1,4 @@
-tag: user.generic_terminal
+tag: terminal
 -
 run remote serve:
     'npm run remote-serve'
