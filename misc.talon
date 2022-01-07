@@ -19,6 +19,8 @@ catch right:
 salute:
     key(enter)
 
+daddy: 'daddy'
+
 finish:
     key(end)
 
@@ -33,12 +35,18 @@ begin funky:
     key('{')
     key(enter)
 
+finish line:
+    key(end)
+    key(';')
+    key(enter)
+
 fuck you:
     edit.undo()
 
 store that:
 	mouse_click()
 	mouse_click()
+	sleep(100ms)
 	edit.copy()
 
 transfer that:
@@ -62,6 +70,8 @@ excel paste:
     key(backspace:2)
 
 nmap: 'map'
+
+patton: 'pattern'
 
 #push: go to end of line and hit enter
 junk: key(backspace)
